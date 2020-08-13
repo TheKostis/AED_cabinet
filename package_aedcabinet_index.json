@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "aedcabinet",
+      "maintainer": "Dent",
+      "websiteURL": "https://roboticsmasters.co",
+      "email" : "techsupport@roboticsmasters.co",
+      "platforms":
+      [
+        {
+          "name": "AED Cabinet SAMD (32-bits ARM Cortex-M0+) Board",
+          "architecture": "samd",
+          "version": "1.8.4",
+          "category": "Contributed",
+          "url": "https://github.com/TheKostis/AED_cabinet/blob/master/1.8.4.zip",
+          "archiveFileName": "1.8.4.zip",
+          "checksum": "SHA-256:13ea2f7b09124b604370fa2daf91c0832a35324e5bbdefb35e942d98fa44e3eb",
+          "size": "4295030",
+          "boards": [
+            {
+              "name": "AED Cabinet"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
